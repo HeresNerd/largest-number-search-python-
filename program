@@ -1,0 +1,16 @@
+#Make sure to check out my Scratch @ https://scratch.mit.edu/users/Hax696Two/
+#Full credit goes to Mike Dane @ https://twitter.com/mike_dane
+
+def max(n1, n2, n3):
+  if num1 >= n2 and n1 >= n3:
+    return n1
+  elif n2 >= n1 and n2 >= n3:
+    return n2
+  else:
+    return n3
+
+print("LARGEST NUMBER GUESSER by Nikoli Loren")
+x = input("Enter first number: ")
+y = input("Enter second number: ")
+z = input("Enter third number: ")
+print("The largest number you entered was " + max(x, y, z))
